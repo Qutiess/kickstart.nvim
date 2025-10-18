@@ -907,14 +907,12 @@ require('lazy').setup({
     -- change the command in the config to whatever the name of that colorscheme is.
     --
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-    'catppuccin/nvim',
+    'rose-pine/neovim',
     priority = 1000, -- Make sure to load this before all the other start plugins.
     config = function()
       ---@diagnostic disable-next-line: missing-fields
-      --How much of the background should be transparent. 2 will have more UI
-      --components be transparent (e.g. status line background)
       -- Load the colorscheme here.
-      vim.cmd.colorscheme 'catppuccin-frappe'
+      vim.cmd.colorscheme 'rose-pine-moon'
     end,
   },
 
